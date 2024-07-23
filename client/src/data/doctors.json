@@ -1,0 +1,38 @@
+[
+    {
+      "id" : 1,
+      "name": "Dr. John Smith",
+      "image": "https://res.cloudinary.com/dngvge2sb/image/upload/v1721734623/doctor2_pld6wx.avif",
+      "specialty": "Cardiologist",
+      "mobile": "+1-555-123-4567"
+    },
+    {
+        "id" : 2,
+      "name": "Dr. Emily Johnson",
+      "image": "https://res.cloudinary.com/dngvge2sb/image/upload/v1721734623/doctor5_uqmokb.avif",
+      "specialty": "Dermatologist",
+      "mobile": "+1-555-987-6543"
+    },
+    {
+        "id" : 3,
+      "name": "Dr. Michael Brown",
+      "image": "https://res.cloudinary.com/dngvge2sb/image/upload/v1721734623/doctor1_feii2m.jpg",
+      "specialty": "Neurologist",
+      "mobile": "+1-555-456-7890"
+    },
+    {
+        "id" : 4,
+      "name": "Dr. Sarah Davis",
+      "image": "https://res.cloudinary.com/dngvge2sb/image/upload/v1721734624/doctor4_e6krbc.jpg",
+      "specialty": "Pediatrician",
+      "mobile": "+1-555-234-5678"
+    },
+    {
+        "id" : 5,
+      "name": "Dr. William Martinez",
+      "image": "https://res.cloudinary.com/dngvge2sb/image/upload/v1721734623/doctor3_zbwhsx.avif",
+      "specialty": "Orthopedic Surgeon",
+      "mobile": "+1-555-678-1234"
+    }
+]
+  
