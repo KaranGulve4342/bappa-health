@@ -5,7 +5,7 @@ import { Bell, Home, LineChart, Package, Package2, ShoppingCart, Users } from 'l
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
-
+0
 export function Sidebar() {
   return (
     <div className="hidden border-r bg-muted/40 md:block">

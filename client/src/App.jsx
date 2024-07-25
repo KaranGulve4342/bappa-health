@@ -25,11 +25,12 @@ function App() {
           element={
             <PrivateRoute>
               <Dashboard />
+              <Chatbox />
             </PrivateRoute>
           }
         />
         <Route path="/" element={<Home />} />
-        <Route path="/chatbox" element={<Chatbox />} />
+        {/* <Route path="/chatbox" element={<Chatbox />} /> */}
       </Routes>
     </Router>
   );
