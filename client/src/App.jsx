@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard';
 // import Page1 from './pages/Page1'; // Import different components for different pages
 // import Page2 from './pages/Page2';
 // import Page3 from './pages/Page3';
+import Chatbox from './pages/chatbox';
 
 const PrivateRoute = ({ children }) => {
   const token = localStorage.getItem('token');
@@ -28,6 +29,7 @@ function App() {
           }
         />
         <Route path="/" element={<Home />} />
+        <Route path="/chatbox" element={<Chatbox />} />
       </Routes>
     </Router>
   );
