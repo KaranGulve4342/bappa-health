@@ -4,11 +4,8 @@ import Home from './pages/Home';
 import { Login } from './pages/auth/Login';
 import { Register } from './pages/auth/Register';
 import Dashboard from './pages/Dashboard';
-// import Page1 from './pages/Page1'; // Import different components for different pages
-// import Page2 from './pages/Page2';
-// import Page3 from './pages/Page3';
 import Chatbox from './pages/chatbox';
-
+import Mediscan from './pages/MediScan';
 const PrivateRoute = ({ children }) => {
   const token = localStorage.getItem('token');
   return token ? children : <Navigate to="/auth/login" />;
@@ -30,7 +27,8 @@ function App() {
           }
         />
         <Route path="/" element={<Home />} />
-        {/* <Route path="/chatbox" element={<Chatbox />} /> */}
+        <Route path="/chatbox" element={<Chatbox />} />
+        <Route path="/mediScan" element={<Mediscan />} />
       </Routes>
     </Router>
   );

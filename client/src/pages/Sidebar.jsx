@@ -42,13 +42,13 @@ export function Sidebar() {
               Doctors
             </NavLink>
             <NavLink 
-              to="/products" 
+              to="/dashboard/mediScan" 
               className={({ isActive }) => 
                 `flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary ${isActive ? 'bg-muted' : ''}`
               }
             >
               <Package className="h-4 w-4" />
-              Products
+              Mediscan 💊
             </NavLink>
             <NavLink 
               to="/customers" 

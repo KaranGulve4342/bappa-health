@@ -4,6 +4,7 @@ import { Sidebar } from './Sidebar';
 import { Header } from './Header';
 import { MainContent } from './MainContent';
 import { Doctor } from './Doctors';
+import Mediscan from './MediScan';
 
 export default function Dashboard() {
   return (
@@ -18,6 +19,9 @@ export default function Dashboard() {
             } />  
             <Route path="/doctors" element={
               <Doctor />
+            } />
+            <Route path="/mediScan" element={
+              <Mediscan />
             } />
           </Routes>
         </div>
